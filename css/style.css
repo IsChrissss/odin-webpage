@@ -1,7 +1,13 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0px 200px;
+    margin: 0px;
+}
+
+/*HEADER & SECTION 1*/
+.intro {
+    background-color: rgb(28, 37, 48);
+    padding: 10px 150px;
 }
 
 .header {
@@ -9,9 +15,12 @@ body {
     justify-content: space-between;
     font-size: 30px;
     font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 50px;
 }
 
 .links a {
+    color: aliceblue;
     margin: 0px 5px;
     text-decoration: none;
     font-size: 20px;
@@ -19,13 +28,44 @@ body {
 }
 
 a:link {
-    color: black;
+    color: aliceblue;
 }
 
 a:visited {
-    color: rgb(89, 8, 165);
+    color: rgb(129, 80, 243);
 }
 
 a:hover {
-    color: blue;
+    color: rgb(18, 86, 211);
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section-one .summary {
+    color: aliceblue;
+    max-width: 450px;
+    font-size: larger;
+}
+
+.summary h1 {
+    margin: 0px;
+}
+
+.sign-up-1 {
+    width: 150px;
+    background-color: aqua;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.winter-view {
+    height: 300px;
+    width: 450px;
+    border-radius: 5%;
 }
