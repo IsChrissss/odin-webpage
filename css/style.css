@@ -44,7 +44,7 @@ a:hover {
 .section-one {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .section-one .summary {
@@ -114,4 +114,29 @@ a:hover {
     margin: 20px;
     border: 5px solid #3882f6;
     border-radius: 10px;
+}
+
+/*SECTION THREE*/
+.section-three {
+    background-color: #E5E7EB;
+    padding: 75px;
+    text-align: center;
+}
+
+.section-three .quote {
+    display: inline-block;
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    width: 1000px;
+}
+
+.section-three .author {
+    display: block;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
 }
