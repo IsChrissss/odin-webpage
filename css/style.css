@@ -98,12 +98,20 @@ a:hover {
 
 .elements {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .elements .image {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
+}
+
+.elements img {
+    height: 200px;
+    width: 200px;
     margin: 20px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
 }
