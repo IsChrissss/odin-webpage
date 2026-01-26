@@ -2,11 +2,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: Roboto, sans-serif;
 }
 
-/*HEADER & SECTION 1*/
+/*HEADER*/
 .intro {
-    background-color: rgb(28, 37, 48);
+    background-color: #1F2937;
     padding: 10px 150px;
 }
 
@@ -20,10 +21,10 @@ body {
 }
 
 .links a {
-    color: aliceblue;
+    color: #E5E7EB;
     margin: 0px 5px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
 }
 
@@ -39,33 +40,70 @@ a:hover {
     color: rgb(18, 86, 211);
 }
 
+/*SECTION ONE*/
 .section-one {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .section-one .summary {
     color: aliceblue;
-    max-width: 450px;
+    flex-basis: 500px;
     font-size: larger;
 }
 
 .summary h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
     margin: 0px;
+}
+
+.summary p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .sign-up-1 {
     width: 150px;
-    background-color: aqua;
+    color: #F9FAF8;
+    background-color: #3882f6;
     padding: 5px 25px;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    font-size: 24px;
 }
 
 .winter-view {
-    height: 300px;
-    width: 450px;
+    height: 350px;
+    width: 550px;
     border-radius: 5%;
+}
+
+/*SECTION TWO*/
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.section-two .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+}
+
+.elements .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
