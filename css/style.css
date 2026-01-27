@@ -28,17 +28,17 @@ body {
     font-weight: 100;
 }
 
-a:link {
-    color: aliceblue;
-}
+a.l1:link {color: aliceblue;}
+a.l1:visited {color: rgb(129, 80, 243);}
+a.l1:hover {color: rgb(18, 86, 211);}
 
-a:visited {
-    color: rgb(129, 80, 243);
-}
+a.l2:link {color: aliceblue;}
+a.l2:visited {color: rgb(129, 80, 243);}
+a.l2:hover {color: rgb(18, 86, 211);}
 
-a:hover {
-    color: rgb(18, 86, 211);
-}
+a.l3:link {color: aliceblue;}
+a.l3:visited {color: rgb(129, 80, 243);}
+a.l3:hover {color: rgb(18, 86, 211);}
 
 /*SECTION ONE*/
 .section-one {
