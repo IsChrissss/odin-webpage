@@ -140,3 +140,34 @@ a:hover {
     font-weight: bold;
     margin-top: 10px;
 }
+
+/*SECTION FOUR*/
+.section-four {
+    color: #F9FAF8;
+    padding: 60px;
+}
+
+.section-four .action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 30px 10px;
+    border-radius: 5px;
+}
+
+.section-four h2 {
+    margin: 0px;
+}
+
+.section-four .sign-up-2 {
+    width: 145px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 24px;
+}
