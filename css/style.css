@@ -48,7 +48,7 @@ a:hover {
 
 .section-one .summary {
     color: aliceblue;
-    flex-basis: 500px;
+    flex-basis: 575px;
     font-size: larger;
 }
 
@@ -115,6 +115,11 @@ a:hover {
     border-radius: 10px;
 }
 
+.elements .text {
+    width: 250px;
+    text-align: center;
+}
+
 /*SECTION THREE*/
 .section-three {
     background-color: #E5E7EB;
@@ -124,7 +129,7 @@ a:hover {
 
 .section-three .quote {
     display: inline-block;
-    text-align: left;
+    text-align: center;
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
@@ -133,7 +138,7 @@ a:hover {
 }
 
 .section-three .author {
-    text-align: right;
+    text-align: center;
     font-size: 25px;
     font-weight: bold;
     margin-top: 10px;
