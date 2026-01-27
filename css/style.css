@@ -8,7 +8,7 @@ body {
 /*HEADER*/
 .intro {
     background-color: #1F2937;
-    padding: 10px 150px;
+    padding: 30px 150px;
 }
 
 .header {
@@ -44,7 +44,6 @@ a:hover {
 .section-one {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
 .section-one .summary {
@@ -87,7 +86,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .section-two .title {
@@ -134,7 +133,6 @@ a:hover {
 }
 
 .section-three .author {
-    display: block;
     text-align: right;
     font-size: 25px;
     font-weight: bold;
@@ -170,4 +168,13 @@ a:hover {
     font-weight: bold;
     cursor: pointer;
     font-size: 24px;
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 25px 150px;
 }
